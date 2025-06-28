@@ -1,18 +1,71 @@
-# To-Do List Application
+# 📝 React To-Do List Application
 
-A simple React-based To-Do List application that allows users to add, delete, mark tasks as completed, and edit existing tasks.
+A modern, responsive to-do list application built with React and Vite. This project demonstrates functional components, state management, props, and event handling.
 
-## Features
+## ✨ Features
 
-- Add new tasks
-- Mark tasks as completed
-- Delete tasks
-- Edit existing tasks
-- Responsive design
+- Add, edit, delete, and mark tasks as complete
+- Real-time task counter
+- Responsive design with modern UI
+- Inline editing functionality
 
-## Installation
+## 🛠️ Technologies Used
 
-1. Clone the repository
-2. Install dependencies:
+- React 18
+- Vite
+- CSS3
+- JavaScript ES6+
+
+## 📁 Project Structure
+
+```
+src/
+├── App.jsx              # Main application component
+├── App.css              # Global styles
+└── components/
+    ├── Header.jsx       # Header component
+    ├── ToDoList.jsx     # List container component
+    └── ToDoItem.jsx     # Individual todo item component
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (version 14+)
+- npm or yarn
+
+### Installation & Running
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/todo-list-app.git
+   cd todo-list-app
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open browser**
+   Navigate to `http://localhost:5173`
+
+### Build for Production
+```bash
+npm run build
+```
+
+## 🌐 Live Demo
+
+**Deployment Link:** [https://your-todo-app.vercel.app](https://your-todo-app.vercel.app)
+
+*Replace with your actual deployment URL (Vercel, Netlify, GitHub Pages, etc.)*
+
+---
+
+⭐ **Star this repository if you found it helpful!**
